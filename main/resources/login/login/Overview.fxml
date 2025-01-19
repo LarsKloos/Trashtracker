@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.login.HelloController">
+   <children>
+      <ButtonBar layoutX="161.0" layoutY="128.0" prefHeight="40.0" prefWidth="200.0" />
+      <ImageView fitHeight="133.0" fitWidth="250.0" layoutY="-3.0">
+         <image>
+            <Image url="@../../../../../../../../../school/HHS/The Challenge/JavaFX/Trashtracker.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="242.0" fitWidth="250.0" layoutY="128.0">
+         <image>
+            <Image url="@../../../../../../../../../school/HHS/The Challenge/JavaFX/Overview.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="routebutton" layoutX="152.0" layoutY="384.0" mnemonicParsing="false" onAction="#switchToRoute" text="Route" />
+      <Button fx:id="Guibutton" layoutX="55.0" layoutY="384.0" mnemonicParsing="false" onAction="#switchToGui" text="Home" />
+   </children>
+</AnchorPane>
